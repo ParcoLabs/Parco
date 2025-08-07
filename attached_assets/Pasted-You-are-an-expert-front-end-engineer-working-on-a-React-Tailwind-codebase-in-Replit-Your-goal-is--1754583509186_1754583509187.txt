@@ -1,0 +1,48 @@
+You are an expert front-end engineer working on a React + Tailwind codebase in Replit. Your goal is to transform the current Bubble-inspired layouts into a maintainable, mobile-first, component-driven system without throwing away the existing project structure or code.
+
+1. **Inspect & report**  
+   - Walk the file tree under `/src/`. List out:
+     - Any Tailwind config or CSS overrides.
+     - React components in `/components` and pages in `/pages`.
+     - Image assets under `/public` or `/src/assets`.
+
+2. **Extract design tokens**  
+   - From the Hero section’s Bubble specs (1119×500 container, 565px text col, 500px mock col, spacing, font sizes, colors, radii, shadows), add to `tailwind.config.js` under `theme.extend`:  
+     - Colors: `primary`, `heading`, `text`  
+     - Spacing: `heroX`, `heroY`, `gap`  
+     - Font sizes: `hero`, `sub`  
+     - Radii: `button`, `phone`  
+     - Shadows: `heroBtn`, `phone`  
+     - Breakpoints: `sm`, `md`, `lg`, `xl`
+
+3. **Create atomic components**  
+   - **`<Button>`** using `heroBtn` shadow, `button` radius, `primary` border & hover.  
+   - **`<PhoneMock>`** that takes `src` and `position="back"|"front"`, applies 49% / 51% widths, `phone` radius, and `phone` shadow.  
+   - **`<Container>`** centered `max-w-[1137px]` with `px-heroX` padding.
+
+4. **Refactor `HeroSection`**  
+   - Replace hard-coded Tailwind classes with tokens and your new atoms:
+     ```tsx
+     <Container className="h-auto md:h-[500px] flex flex-col md:flex-row items-center justify-between gap-y-heroY md:gap-x-gap">
+       {/* text col */}
+       <div className="max-w-[565px] space-y-heroY">
+         <h1 className="font-inter font-bold text-hero text-heading">…</h1>
+         <p className="font-inter text-sub text-text">…</p>
+         <Button>View Marketplace</Button>
+       </div>
+       {/* mocks */}
+       <div className="relative w-[500px] h-[433px]">
+         <PhoneMock src={mobile2} position="back" />
+         <PhoneMock src={mobile1} position="front" />
+       </div>
+     </Container>
+     ```
+
+5. **Wire up routing & layout**  
+   - Ensure `App.tsx` points `/` → `<Homepage />`, remove any conflicting `home.tsx`.  
+   - Wrap all pages in a single `MainLayout` that renders `<Header />` and `<Footer />`.
+
+6. **Incremental diffs & review**  
+   - For each of the above steps, produce a clear diff patch (or full file overwrite if needed), and validate in Replit preview at both narrow (mobile) and wide (desktop) widths.
+
+Throughout, do **not** delete or rename files unless explicitly asked. Build on top of the existing structure. After each change, confirm the live preview shows the expected result before moving to the next step.
