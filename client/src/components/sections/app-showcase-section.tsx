@@ -6,19 +6,19 @@ const appFeatures = [
   {
     title: "Property Discovery",
     description: "Browse and filter properties based on location, price, and expected returns.",
-    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=250&h=400",
+    image: "https://d17df1adcdc6196c2e4ab44e0007c7b8.cdn.bubble.io/f1739036058037x926064690587668900/Pink%20Circle%20Lotus%20Yoga%20Instructor%20Logo%20%282%29.svg",
     gradient: "from-primary/10 to-primary/5"
   },
   {
     title: "Portfolio Management",
     description: "Monitor your investments and track performance in real-time.",
-    image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=250&h=400",
+    image: "https://d17df1adcdc6196c2e4ab44e0007c7b8.cdn.bubble.io/f1739036149077x177949591091408600/Pink%20Circle%20Lotus%20Yoga%20Instructor%20Logo%20%283%29.svg",
     gradient: "from-secondary-green/10 to-secondary-green/5"
   },
   {
     title: "Easy Trading",
     description: "Buy and sell property tokens with just a few taps on your mobile device.",
-    image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=250&h=400",
+    image: "https://d17df1adcdc6196c2e4ab44e0007c7b8.cdn.bubble.io/f1739036661341x150401367071684160/Pink%20Circle%20Lotus%20Yoga%20Instructor%20Logo%20%285%29.svg",
     gradient: "from-accent-amber/10 to-accent-amber/5"
   }
 ];

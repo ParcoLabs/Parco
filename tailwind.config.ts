@@ -73,7 +73,8 @@ export default {
         sans: ["var(--font-sans)"],
         serif: ["var(--font-serif)"],
         mono: ["var(--font-mono)"],
-        inter: ["Inter", "sans-serif"]
+        inter: ["Inter", "sans-serif"],
+        bungee: ["Bungee", "cursive"]
       },
       spacing: {
         'heroX': '2rem',

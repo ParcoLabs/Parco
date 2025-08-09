@@ -13,7 +13,7 @@ export function Footer() {
               <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
                 <Building className="text-white" size={16} />
               </div>
-              <span className="text-xl font-bold">PARCO</span>
+              <span className="text-xl font-bold font-bungee">PARCO</span>
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
               Making real estate investment accessible through blockchain technology and tokenization.

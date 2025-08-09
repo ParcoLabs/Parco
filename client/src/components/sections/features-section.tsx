@@ -3,18 +3,18 @@ import { Container } from "@/components/ui/container";
 const features = [
   {
     title: "Portfolio Analytics",
-    description: "Track your investments with real-time analytics and detailed performance metrics.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200"
+    description: "Own fractional shares in income-generating real estate. Buy ownership in properties across top U.S. markets and earn rental income effortlessly.",
+    image: "https://d17df1adcdc6196c2e4ab44e0007c7b8.cdn.bubble.io/cdn-cgi/image/w=384,h=384,f=auto,dpr=1.25,fit=contain/f1744479041600x140549823149429980/Pink%20Circle%20Lotus%20Yoga%20Instructor%20Logo%20%2826%29.png"
   },
   {
     title: "Market Research",
-    description: "Access comprehensive market data and research to make informed investment decisions.",
-    image: "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200"
+    description: "Receive rental payouts directly to your wallet, starting on day one. Your investment generates real-time income, and your holdings appreciate as property values grow.",
+    image: "https://d17df1adcdc6196c2e4ab44e0007c7b8.cdn.bubble.io/cdn-cgi/image/w=384,h=384,f=auto,dpr=1.25,fit=contain/f1744478676584x368105054446560500/Pink%20Circle%20Lotus%20Yoga%20Instructor%20Logo%20%2825%29.png"
   },
   {
     title: "Mobile Trading",
-    description: "Manage your portfolio on-the-go with our mobile app available on iOS and Android.",
-    image: "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200"
+    description: "Reinvest your earnings to scale your real estate portfolio. With every payout, you’re one step closer to long-term wealth and financial independence.",
+    image: "https://d17df1adcdc6196c2e4ab44e0007c7b8.cdn.bubble.io/cdn-cgi/image/w=384,h=384,f=auto,dpr=1.25,fit=contain/f1744478687076x605162419201151500/Pink%20Circle%20Lotus%20Yoga%20Instructor%20Logo%20%2823%29.png"
   }
 ];
 
