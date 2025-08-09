@@ -67,7 +67,7 @@ export default function PropertiesSection() {
                 <p className="text-text mb-4">{property.location}</p>
                 <div className="flex items-center justify-between">
                   <span className="text-2xl font-bold text-heading">{property.tokenPrice}</span>
-                  <Button className="bg-primary hover:bg-blue-700 text-white px-4 py-2 rounded-button font-medium">
+                  <Button className="bg-primary hover:bg-teal-800 text-white px-4 py-2 rounded-button font-medium">
                     Invest Now
                   </Button>
                 </div>

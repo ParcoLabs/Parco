@@ -52,7 +52,7 @@
   --spacing: 0.25rem;
   
   /* Design tokens from Hero section specs */
-  --hero-primary: hsl(218.7 100% 61.2%);
+  --hero-primary: hsl(174 95% 20%);
   --hero-heading: hsl(210 25% 7.8431%);
   --hero-text: hsl(210 16% 42%);
   --hero-surface: hsl(210 40% 98%);
@@ -107,7 +107,7 @@
   --shadow-2xl: 0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0.00);
   
   /* Dark mode design tokens */
-  --hero-primary: hsl(218.7 100% 61.2%);
+  --hero-primary: hsl(174 95% 20%);
   --hero-heading: hsl(200 6.6667% 91.1765%);
   --hero-text: hsl(210 16% 65%);
   --hero-surface: hsl(228 9.8039% 10%);

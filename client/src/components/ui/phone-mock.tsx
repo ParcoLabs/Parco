@@ -1,27 +1,27 @@
+// src/components/ui/phone-mock.tsx
+import React from "react";
 import { cn } from "@/lib/utils";
 
 interface PhoneMockProps {
   src: string;
   alt: string;
   position: "front" | "back";
-  className?: string;
 }
 
-export function PhoneMock({ src, alt, position, className }: PhoneMockProps) {
-  const baseClasses = "rounded-phone shadow-phone transition-transform";
-  
-  const positionClasses = {
-    back: "absolute top-0 right-0 w-[49%] transform rotate-12 hover:rotate-6",
-    front: "absolute top-8 left-0 w-[51%] z-10 hover:scale-105"
+export function PhoneMock({ src, alt, position }: PhoneMockProps) {
+  const base = `
+    rounded-[22px]
+    shadow-[3px_4px_10px_rgba(53,53,53,0.3)]
+    transition-transform
+    duration-300
+  `;
+  const positions = {
+    back: "absolute left-0 bottom-0 w-[49%] transform -rotate-6 hover:rotate-0",
+    front: "absolute right-0 top-0 w-[51%] transform rotate-0 hover:-rotate-6",
   };
-
   return (
-    <div className={cn(baseClasses, positionClasses[position], className)}>
-      <img 
-        src={src} 
-        alt={alt}
-        className="w-full rounded-phone shadow-phone object-cover"
-      />
+    <div className={cn(base, positions[position])}>
+      <img src={src} alt={alt} className="w-full h-auto rounded-[22px]" />
     </div>
   );
 }

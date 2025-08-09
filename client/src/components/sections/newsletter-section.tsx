@@ -16,9 +16,9 @@ export default function NewsletterSection() {
   return (
     <section className="py-16 bg-white">
       <Container>
-        <div className="bg-gradient-to-r from-primary to-blue-600 rounded-2xl p-12 text-center text-white">
+        <div className="bg-gradient-to-r from-primary to-teal-700 rounded-2xl p-12 text-center text-white">
           <h2 className="text-3xl font-bold mb-4">Join Our Mailing List</h2>
-          <p className="text-blue-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-teal-100 mb-8 max-w-2xl mx-auto">
             Stay updated with the latest property opportunities, market insights, and platform updates.
           </p>
           <div className="max-w-md mx-auto">
